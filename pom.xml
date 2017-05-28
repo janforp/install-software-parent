@@ -9,6 +9,7 @@
     <modules>
         <module>docker-install</module>
 		<module>jenkins-install</module>
+		<module>gitlab-install</module>
 	</modules>
     <packaging>pom</packaging>
 
