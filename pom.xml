@@ -11,7 +11,8 @@
 		<module>jenkins-install</module>
 		<module>gitlab-install</module>
 		<module>aliyun-ecs</module>
-	</modules>
+        <module>jenkins-use</module>
+    </modules>
     <packaging>pom</packaging>
 
 	<name>install-parent</name>
