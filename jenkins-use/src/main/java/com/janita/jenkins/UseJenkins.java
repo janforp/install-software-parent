@@ -14,7 +14,7 @@ public class UseJenkins {
      *
      * 2.点击 Global Tool Configuration”,见图2
      *
-     * 3.配置一些全局工具,见图 2.1 及图2.2
+     * 3.配置一些全局工具,见图 2.1 及图2.2,图2.3
      * 配置完点击 保存
      *
      * 4.配置邮箱,见图3
@@ -29,9 +29,24 @@ public class UseJenkins {
      * 2.但是点击保存的时候 ,导致jenkins无法访问
      * 是因为服务器上没有公钥跟私钥,需要生成,把公钥拷到 gitlab 上面,见图5
      *
+     * 3.然后 service jenkins restart
+     *
+     * 4.修改maven的setting.xml文件
      *
      *
+     */
+
+
+    /**
      *
+     * 构建
+     *
+     * 成功之后在工作区中会生成target文件,见图7
+     */
+
+    /**
+     * 构建后操作
+     * 可选项目,见图8
      */
 
 
