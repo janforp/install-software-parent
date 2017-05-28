@@ -10,6 +10,7 @@
         <module>docker-install</module>
 		<module>jenkins-install</module>
 		<module>gitlab-install</module>
+		<module>aliyun-ecs</module>
 	</modules>
     <packaging>pom</packaging>
 
