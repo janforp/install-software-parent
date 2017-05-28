@@ -6,7 +6,11 @@
 	<groupId>com.janita</groupId>
 	<artifactId>install-software-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+    <modules>
+        <module>docker-install</module>
+		<module>jenkins-install</module>
+	</modules>
+    <packaging>pom</packaging>
 
 	<name>install-parent</name>
 	<description>Demo project for Spring Boot</description>
