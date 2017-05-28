@@ -57,7 +57,7 @@ public class JenkinsInstall {
 
 
     /**
-     * 五.裸ejnkins安装完毕了
+     * 五.裸jenkins安装完毕了
      *
      * 1.若需要配合 gitlab 使用,则可以安装 gitlab 或者在 docker中运行 gitlab 镜像
      * 2.具体见 gitlab 安装模块
