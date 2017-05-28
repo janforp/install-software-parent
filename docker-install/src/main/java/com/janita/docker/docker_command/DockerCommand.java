@@ -8,7 +8,7 @@ public class DockerCommand {
 
     /**
      * 1.查看某个镜像/容器的启动日志 命令:
-     *  docker -logs -f + 容器id
+     *  docker logs -f + 容器id
      */
 
     /**

@@ -26,7 +26,7 @@ public class GitlabDockerInstall {
                 docker run --name postgresql --restart=always -d -p 5432:5432 -e POSTGRES_PASSWORD=123456 -e POSTGRES_USER=postgres -e POSTGRES_DB=gitlabhq_production --volume /janita/docker/gitlab/postgresql:/var/lib/postgresql hub.c.163.com/library/postgres
      *
      * 3.gitlab 镜像
-     *      3.1: 下载镜像   docker pull sameersbn/gitlab:8.16.6
+     *      3.1: 下载镜像   docker pull sameersbn/gitlab:8.16.6  这个镜像是国外的
      *      3.2:  运行镜像
 
 

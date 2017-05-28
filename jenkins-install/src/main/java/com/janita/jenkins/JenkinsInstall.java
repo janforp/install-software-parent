@@ -42,12 +42,16 @@ public class JenkinsInstall {
      * 1.   安装完毕之后就可以访问 8080 端口了,首次访问的页面见 图1
      *      cat /var/lib/jenkins/secrets/initialAdminPassword
      *      获取密码  复制密码粘贴至输入框
+     *
      *      点击 页面右下角的 continue
+     *
      *      之后页面会加载一段时间
+     *
      *      之后会出现 图2:安装插件
      *
      * 2.  点击图2左边的 安装 系统建议安装的插件
      *      之后会出现 图3
+     *
      *           最后进入 Create First Admin User 页面,如图4
      *                点击 save and finish
      *                     出现图5
